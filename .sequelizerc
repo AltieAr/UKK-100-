@@ -1,0 +1,9 @@
+const path = require('path');
+
+module.exports = {
+  // Ubah ekstensi ini jadi .js biar sesuai sama file config kamu
+  'config': path.resolve('src', 'config', 'config.js'), 
+  'models-path': path.resolve('src', 'models'),
+  'seeders-path': path.resolve('src', 'seeders'),
+  'migrations-path': path.resolve('src', 'migrations')
+};
